@@ -1,0 +1,54 @@
+    html {
+        /* background-color: #ffffff; */
+        background-color: hsl(0, 0%, 100%);
+
+    }
+    img {
+        width: 100%;
+        height: 50%;
+    }
+
+
+    h1 {
+        font-family: 'Libre Baskerville';
+        font-weight: 200;
+    }
+    h2 {
+        font-family: 'Libre Baskerville';
+        font-weight: 100;
+    }
+    body {
+        font-family: 'Libre Baskerville';
+    }
+    div {
+        border-radius:20px ;
+        padding: 15px;
+        /* background-color: #e4f7ff; */
+        background-color: #e5edfe;
+
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #hea {
+        padding-left: 15px;
+    }
+    
+    #head {
+        padding-bottom: 20px;
+        border-radius: 50%;
+        height: 30;
+        width: 30vw;
+        display: flex;
+        justify-self: center;}
+
+    .heroes {
+        float: left;
+    }
+
+    .profile {
+        float: left;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
