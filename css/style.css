@@ -52,3 +52,7 @@
         overflow-clip-margin: content-box;
         overflow: clip;
     }
+
+    .nav-item {
+        margin-left: 10px;
+    }
