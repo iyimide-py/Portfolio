@@ -1,7 +1,8 @@
     html {
         /* background-color: #ffffff; */
         background-color: hsl(0, 0%, 100%);
-
+        /* background-image: url("https://www.transparenttextures.com/patterns/black-thread.png"); */
+        
     }
     img {
         width: 100%;
@@ -21,6 +22,10 @@
     }
     body {
         font-family: 'Libre Baskerville';
+        /* background-color: #deebed; */
+        /* background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png"); */
+
+        
     }
     div {
         border-radius:20px ;
@@ -63,7 +68,7 @@
         margin-top: 10px;
     }
 
-    #sub {
+    #sub, #subreact, #subrecent, #subwebapps, #subjava, #subgraphics, #subart {
         background-color: rgb(59, 137, 231);
     }
 
@@ -73,3 +78,20 @@
   animation: gradient-animation 10s ease infinite;
 }
 
+/* @keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */   
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+
+  }
